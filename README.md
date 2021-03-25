@@ -1,5 +1,5 @@
 ## Publication
-Yunju Im and Aixin Tan (2021). Bayesian subgroup analysis in regression using mixture models. 2021. Manuscript.
+Yunju Im and Aixin Tan (2021). Bayesian subgroup analysis in regression using mixture models. Manuscript.
 
 ## Description
 1) BayeisanMixtures_reg.jl contains the main function that produces MCMC samples for the cMFM proposed in the manuscript. Both original Gibbs sampler and split-merge version sampler are included. The main function calls several other functions that are modified based on the software that accompanies the following paper. 
