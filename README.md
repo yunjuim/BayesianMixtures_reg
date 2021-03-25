@@ -7,7 +7,7 @@ J. W. Miller and M. T. Harrison. Mixture models with a prior on the number of co
 
 2) examples.jl: Julia program for the examples in the Simulation studies in the manuscript. 
 
-3) betaplasma.jl: Juila program for fitting the cMFM for the `Betaplasma' data set. The Beta plasma data file, available from the R package CAMAN. 
+3) betaplasma.jl: Juila program for fitting the cMFM for the `Betaplasma' data set, which is available from the R package CAMAN. 
 Schlattmann, P.(2009) Medical Applications of Finite Mixture Models. Berlin: Springer.
 
 For more information, please contact Yunju Im at yunju-im@uiowa.edu. 
