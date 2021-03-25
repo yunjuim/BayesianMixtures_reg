@@ -12,4 +12,4 @@ J. W. Miller and M. T. Harrison. Mixture models with a prior on the number of co
 4) Betaplasma.txt: The Beta plasma data file, available from the R package CAMAN. 
 Schlattmann, P.(2009) Medical Applications of Finite Mixture Models. Berlin: Springer.
 
-For more information, please contact Yunju Im at yunju-im@uiowa.edu.
+For more information, please contact Yunju Im at yunju-im@uiowa.edu. 
