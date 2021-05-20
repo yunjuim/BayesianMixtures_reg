@@ -1,9 +1,6 @@
 module BayesianMixtures_reg
 
 include("MFM.jl")
-include("itcp.jl")
-include("slope.jl")
-include("itcp_var.jl")
 include("slope_var.jl")
 
 using SpecialFunctions
