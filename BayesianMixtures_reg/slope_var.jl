@@ -125,8 +125,8 @@ function update_theta!(g, theta, H)
     a1 = 0.5 * n + H.a
     b1 = 0.5 * (2 * H.b + H.mb.quad + g.sum_res2 - Lower.quadratic(b, zeros(p), L, p))
     
-    theta.phi = rand(Gamma(a1, 1 / b1))#InverseGamma(a1, b1)) 
-    theta.beta = Lower.sample_Normal!(x, b, (L * sqrt(theta.phi)), p) #/ sqrt(theta.phi)), p)
+    theta.phi = rand(Gamma(a1, 1 / b1))
+    theta.beta = Lower.sample_Normal!(x, b, (L * sqrt(theta.phi)), p) 
 end
 
 update_theta!(theta, t, list, g, H) = (for j = 1 : t; c = list[j]; update_theta!(g[c], theta[c], H); end)
@@ -145,8 +145,6 @@ function update_eta!(y, X, W, eta, theta, z, t, list, n, H)
     Lower.solve_Ltx_eq_y!(L, b, x, d)
     Lower.sample_Normal!(eta, b, L, d)
 end
-
-# [-0.5, 0.3, 0.45, 0.2, 0.35]
 
 include("slope_var_splitmerge_update.jl")
 include("generic.jl")
